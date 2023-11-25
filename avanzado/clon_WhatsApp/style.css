@@ -485,15 +485,6 @@ ion-icon {
     clear: both;
 }
 
-/* .msgBox .msg::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -10px;
-    border: 10px solid transparent;
-    border-top: 10px solid #fff;
-} */
-
 .msgBox .msg.right {
     position: relative;
     padding: 10px;
@@ -538,39 +529,6 @@ ion-icon {
 .msgBox .msg.left.no-tail::before {
     display: none;
 }
-
-
-/*.msgBox .bubble:last-child(2) .msg.right {
-    background: #0d7662;
-    border-radius: 10px;
-    border: 8px solid transparent;
-    border-top: 8px solid #0d7662;
-}
-
-.msgBox .msg.left {
-    position: relative;
-    padding: 10px;
-    margin: 2px;
-    background: #202c33;
-    border-radius: 10px;
-}
-
-.msgBox .msg.left::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -8px;
-    border: 10px solid transparent;
-    border-top: 10px solid #202c33;
-}
-
-.msgBox .bubble:last-child(4) .msg.left {
-    background: #202c33;
-    border-radius: 10px;
-    border: 8px solid transparent;
-    border-top: 8px solid #202c33;
-} */
-
 
 .time {
     width: 100%;

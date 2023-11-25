@@ -1,13 +1,13 @@
 const username = document.querySelector(".user"),
-    password = document.querySelector('.password'),
-    logBtn = document.querySelector(".btn_Login"),
-    error = document.querySelector(".error"),
-    images = document.querySelectorAll('.main img');
+  password = document.querySelector('.password'),
+  logBtn = document.querySelector(".btn_Login"),
+  error = document.querySelector(".error"),
+  images = document.querySelectorAll('.main img');
 
 
 // Obtener el elemento del año actual
 let currentYearElement = document.getElementById("currentYear");
-        
+
 // Obtener el año actual
 let currentYear = new Date().getFullYear();
 
@@ -24,7 +24,7 @@ const validateInputs = () => {
 const login = () => {
   if (username.value === "Fran" && password.value === "F/1245*") {
     error.innerHTML = "¡Ingresó con Éxito! Lástima que aún no se ha iniciado sesión";
-  } 
+  }
   else {
     error.innerHTML = "Contraseña es incorrecta. Vuelva a verificar.";
   }

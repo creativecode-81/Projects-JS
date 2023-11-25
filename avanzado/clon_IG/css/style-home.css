@@ -50,16 +50,6 @@
     background-color: rgba(32, 33, 35, 1);
 }
 
-/* .menu a:hover::before, 
-.menu .active::before {
-    content: '';
-    position: absolute;
-    right: 0;
-    height: 17px;
-    width: 2px;
-    background: #e2336b;
-} */
-
 .menu .active .icon img {
     border-radius: 50%;
 }
@@ -190,9 +180,6 @@ section {
     width: 60px;
     border-radius: 50%;
     border: 2px solid #c62d8f;
-    /* background: rgb(255, 201, 0);
-    background: linear-gradient(36deg, rgb(255, 201, 0) 13%, rgb(255, 0, 95) 73%, rgb(255, 9, 237) 100%);
-    box-sizing: border-box; */
     padding: 1px;
     object-fit: cover;
 }
@@ -255,7 +242,6 @@ section {
     padding-bottom: 2px;
     font-weight: bold;
     font-size: 12px;
-    /* color: #f5f5f5; */
 }
 
 .posts .title_post .left_post .details .verifid {
